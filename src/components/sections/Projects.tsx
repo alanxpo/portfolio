@@ -3,10 +3,9 @@ import Project from "../Project";
 
 export default function ProjectsPage() {
   return (
-    <section className="pt-12" id="proyectos">
-      <h1 className="font-medium text-2xl tracking-tighter dark:text-white text-neutral-800">
-        Proyectos
-      </h1>
+    <section className="pt-4 sm:pt-12" id="proyectos">
+      <h1 className="font-medium text-xl sm:text-2xl tracking-tighter dark:text-white text-neutral-800">Proyectos</h1>
+      
       <div className="prose prose-neutral dark:prose-invert mt-4 grid grid-cols-1 gap-2">
       <Project
           title="Sistema de Integración Escolar"

@@ -240,8 +240,8 @@ export default function Project({
     ),
   };
   return (
-    <div className="flex items-center rounded-md border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
-      <div className="w-2/3 px-2">
+    <div className="flex flex-col sm:flex-row items-center rounded-md border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+      <div className="w-full sm:w-2/3 p-2">
         <h2 className="font-medium text-base mb-1 tracking-tighter">{title}</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-xs">
           {description}
@@ -264,7 +264,7 @@ export default function Project({
             <a
               href={code}
               target="_blank"
-              className="absolute flex dark:bg-[#404040] border dark:border-neutral-600 mt-6 p-1 rounded-md hover:bg-neutral-200 dark:hover:bg-neutral-600 w-fit gap-1 items-center"
+              className=" flex dark:bg-[#404040] border dark:border-neutral-600 mt-6 p-1 rounded-md hover:bg-neutral-200 dark:hover:bg-neutral-600 w-fit gap-1 items-center"
             >
               <svg
                 viewBox="0 0 256 250"
@@ -283,7 +283,7 @@ export default function Project({
           {preview && (
             <a
               href={preview}
-              className="absolute flex dark:bg-[#404040] border dark:border-neutral-600 mt-6 p-1 rounded-md hover:bg-neutral-200 dark:hover:bg-neutral-600 w-fit gap-1 items-center"
+              className=" flex dark:bg-[#404040] border dark:border-neutral-600 mt-4 p-1 rounded-md hover:bg-neutral-200 dark:hover:bg-neutral-600 w-fit gap-1 items-center"
             >
               <svg
                 viewBox="0 0 24 24"

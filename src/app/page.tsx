@@ -24,7 +24,7 @@ export default function Home() {
       <h1 className="mt-2 mb-4 text-2xl font-medium tracking-tighter dark:text-white text-neutral-800">
         Hola, soy Alan Muro 👋
       </h1>
-      <p className="prose prose-neutral dark:prose-invert dark:text-gray-300 text-neutral-600">
+      <p className="prose prose-neutral dark:prose-invert dark:text-gray-300 text-neutral-600 text-sm md:text-base">
         Full Stack Developer con más de 2 años de experiencia. Me encanta el
         desarrollo web y la programación en general. Actualmente en busca de
         nuevas oportunidades laborales.
