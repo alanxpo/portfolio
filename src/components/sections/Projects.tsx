@@ -31,7 +31,7 @@ export default function ProjectsPage() {
           image="/statikk.png"
           tech={["NextJS", "React", "Tailwind"]}
           
-          preview="https://www.statikkgg.vercel.app"
+          preview="https://statikkgg.vercel.app"
         ></Project>
       </div>
     </section>
