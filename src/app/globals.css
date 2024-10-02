@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Configuración del fondo para el tema claro y oscuro */
+:root {
+  /* Fondo por defecto para el tema claro */
+  --background-color: #ffffff;
+}
+
+/* Fondo para el tema oscuro */
+.dark {
+  --background-color: #111010;
+}
+
+/* Aplicación del fondo */
+body {
+  background-color: var(--background-color);
+}
