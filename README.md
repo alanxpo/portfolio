@@ -36,7 +36,3 @@ Este proyecto es mi portafolio personal, desarrollado con Next.js y React. Prese
 ## Despliegue
 
 Este proyecto está desplegado en Vercel.
-
-## Contacto
-
-Para más información o colaboraciones, no dudes en contactarme a través de los enlaces proporcionados en el portafolio.
